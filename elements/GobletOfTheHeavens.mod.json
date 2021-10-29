@@ -1,0 +1,33 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "goblet_of_heaven",
+    "customModelName": "Normal",
+    "name": "Goblet Of The Heavens",
+    "rarity": "EPIC",
+    "specialInfo": [
+      "A combination of all of the gods powers, drinking this may cause immortality",
+      "Legendary Item",
+      "Developer Item"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:MoreOre"
+    },
+    "stackSize": 1,
+    "nutritionalValue": 20,
+    "saturation": 4.0,
+    "eatingSpeed": 100,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": true,
+    "onEaten": {
+      "name": "Hehehhe"
+    }
+  }
+}

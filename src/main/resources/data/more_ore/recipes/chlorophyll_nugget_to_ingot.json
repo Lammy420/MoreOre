@@ -1,0 +1,42 @@
+{
+  "group": "more_ore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "more_ore:chlorophyll_nugget"
+    },
+    "1": {
+      "item": "more_ore:chlorophyll_nugget"
+    },
+    "2": {
+      "item": "more_ore:chlorophyll_nugget"
+    },
+    "3": {
+      "item": "more_ore:chlorophyll_nugget"
+    },
+    "4": {
+      "item": "more_ore:chlorophyll_nugget"
+    },
+    "5": {
+      "item": "more_ore:chlorophyll_nugget"
+    },
+    "6": {
+      "item": "more_ore:chlorophyll_nugget"
+    },
+    "7": {
+      "item": "more_ore:chlorophyll_nugget"
+    },
+    "8": {
+      "item": "more_ore:chlorophyll_nugget"
+    }
+  },
+  "result": {
+    "item": "more_ore:chlorophyll_ingot",
+    "count": 1
+  }
+}

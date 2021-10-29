@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BloodflareIngot"
+      },
+      {
+        "value": "CUSTOM:BloodflareIngot"
+      },
+      {
+        "value": "CUSTOM:ChlorophyllIngot"
+      },
+      {
+        "value": "Items.ENDER_PEARL"
+      },
+      {
+        "value": "CUSTOM:BloodflareIngot"
+      },
+      {
+        "value": "CUSTOM:ChlorophyllIngot"
+      },
+      {
+        "value": "CUSTOM:ChlorophyllIngot"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AstralIngot"
+    },
+    "name": "astral_ingot_crafting_3",
+    "namespace": "mod"
+  }
+}

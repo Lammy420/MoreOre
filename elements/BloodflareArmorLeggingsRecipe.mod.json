@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BloodflareIngot"
+      },
+      {
+        "value": "CUSTOM:BloodflareIngot"
+      },
+      {
+        "value": "CUSTOM:BloodflareIngot"
+      },
+      {
+        "value": "CUSTOM:BloodflareIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BloodflareIngot"
+      },
+      {
+        "value": "CUSTOM:BloodflareIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BloodflareIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BloodflareArmour.legs"
+    },
+    "name": "bloodflare_armor_leggings_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "more_ore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "more_ore:gleaming_gem"
+    },
+    "1": {
+      "item": "more_ore:gleaming_gem"
+    },
+    "2": {
+      "item": "more_ore:gleaming_gem"
+    },
+    "3": {
+      "item": "more_ore:gleaming_gem"
+    },
+    "4": {
+      "item": "more_ore:gleaming_gem"
+    },
+    "5": {
+      "item": "more_ore:gleaming_gem"
+    },
+    "6": {
+      "item": "more_ore:gleaming_gem"
+    },
+    "7": {
+      "item": "more_ore:gleaming_gem"
+    },
+    "8": {
+      "item": "more_ore:gleaming_gem"
+    }
+  },
+  "result": {
+    "item": "more_ore:gigasword",
+    "count": 1
+  }
+}

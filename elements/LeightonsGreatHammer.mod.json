@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "leightons_great_hammer",
+    "customModelName": "Normal",
+    "name": "Leightons Greathammer",
+    "specialInfo": [
+      "A legendary hammer said to have been used by the master builder himself",
+      "Legendary Drop",
+      "Developer Item"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:MoreOre"
+    },
+    "toolType": "MultiTool",
+    "harvestLevel": 4,
+    "efficiency": 20.0,
+    "attackSpeed": 10.0,
+    "enchantability": 50000,
+    "damageVsEntity": 38.0,
+    "usageCount": 100000,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

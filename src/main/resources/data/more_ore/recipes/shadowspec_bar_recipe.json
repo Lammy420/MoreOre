@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "more_ore:auric_tesla_ingot"
+  },
+  "addition": {
+    "item": "more_ore:calamitous_essence"
+  },
+  "result": {
+    "item": "more_ore:shadowspec_ingot"
+  }
+}

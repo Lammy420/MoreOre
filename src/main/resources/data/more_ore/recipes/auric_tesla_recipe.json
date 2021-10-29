@@ -1,0 +1,34 @@
+{
+  "group": "more_ore",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "more_ore:darksun_fragment"
+    },
+    {
+      "item": "more_ore:galactica_singularity"
+    },
+    {
+      "item": "more_ore:ascendant_spirit_essence"
+    },
+    {
+      "item": "more_ore:yharon_soul_fragment"
+    },
+    {
+      "item": "more_ore:core_of_calamity"
+    },
+    {
+      "item": "more_ore:auric_ore"
+    },
+    {
+      "item": "more_ore:life_alloy"
+    },
+    {
+      "item": "more_ore:unholy_essence"
+    }
+  ],
+  "result": {
+    "item": "more_ore:auric_tesla_ingot",
+    "count": 2
+  }
+}

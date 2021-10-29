@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "more_ore:items/apotheosis_fixed"
+  }
+}

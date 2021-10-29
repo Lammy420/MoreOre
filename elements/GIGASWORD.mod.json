@@ -1,0 +1,29 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "bloodflare_sword",
+    "customModelName": "Normal",
+    "name": "Giga Sword",
+    "specialInfo": [
+      "Doesn't look like much but packs a huge punch."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:MoreOre"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 50.0,
+    "enchantability": 20000,
+    "damageVsEntity": 99998.0,
+    "usageCount": 100000,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

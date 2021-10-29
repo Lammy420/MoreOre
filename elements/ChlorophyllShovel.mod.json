@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "chlorophyll_shovel",
+    "customModelName": "Normal",
+    "name": "Chlorophyll Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MoreOre"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 4,
+    "efficiency": 10.0,
+    "attackSpeed": 1.0,
+    "enchantability": 22,
+    "damageVsEntity": 4.0,
+    "usageCount": 2056,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ChlorophyllIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

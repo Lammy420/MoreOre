@@ -1,0 +1,34 @@
+{
+  "group": "more_ore",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "more_ore:chlorophyll_chunk"
+    },
+    {
+      "item": "more_ore:chlorophyll_chunk"
+    },
+    {
+      "item": "more_ore:chlorophyll_chunk"
+    },
+    {
+      "item": "more_ore:chlorophyll_chunk"
+    }
+  ],
+  "result": {
+    "item": "more_ore:chlorophyll_ingot",
+    "count": 1
+  }
+}

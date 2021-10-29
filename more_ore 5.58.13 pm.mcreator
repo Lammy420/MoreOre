@@ -1,0 +1,975 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "SolidifiedChlorophyll",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "solidified_chlorophyll"
+    },
+    {
+      "name": "BloodflareNugget",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodflare_nugget"
+    },
+    {
+      "name": "ChlorophyllIngot",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chlorophyll_ingot"
+    },
+    {
+      "name": "ChlorophyllChunk",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chlorophyll_chunk"
+    },
+    {
+      "name": "ChlorophyllChunktoChlorophyllIngot",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chlorophyll_chunkto_chlorophyll_ingot"
+    },
+    {
+      "name": "BloodflareIngot",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodflare_ingot"
+    },
+    {
+      "name": "BloodflareNuggetToBloodflareIngot",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodflare_nugget_to_bloodflare_ingot"
+    },
+    {
+      "name": "BloodflareIngottoBloodflareNugget",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodflare_ingotto_bloodflare_nugget"
+    },
+    {
+      "name": "SolidifiedChlorophyllBroken",
+      "type": "loottable",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "solidified_chlorophyll_broken"
+    },
+    {
+      "name": "ChlorophyllNugget",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chlorophyll_nugget"
+    },
+    {
+      "name": "ChlorophyllIngotToNugget",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chlorophyll_ingot_to_nugget"
+    },
+    {
+      "name": "ChlorophyllNuggetToIngot",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chlorophyll_nugget_to_ingot"
+    },
+    {
+      "name": "BloodflareArmour",
+      "type": "armor",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodflare_armour",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "BloodflareHelmetSmithing",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodflare_helmet_smithing"
+    },
+    {
+      "name": "BloodflareChestplateSmithing",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodflare_chestplate_smithing"
+    },
+    {
+      "name": "BloodflareLeggingsSmithing",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodflare_leggings_smithing"
+    },
+    {
+      "name": "BloodflareBootsSmithing",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodflare_boots_smithing"
+    },
+    {
+      "name": "BloodflareOre",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodflare_ore"
+    },
+    {
+      "name": "BloodflareOreBroken",
+      "type": "loottable",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodflare_ore_broken"
+    },
+    {
+      "name": "BloodflareArmourFullSetCheck",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodflare_armour_full_set_check",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AstralIngot",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "astral_ingot"
+    },
+    {
+      "name": "AstralIngotCrafting",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "astral_ingot_crafting"
+    },
+    {
+      "name": "AstralIngotCrafting1",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "astral_ingot_crafting_1"
+    },
+    {
+      "name": "AstralIngotCrafting2",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "astral_ingot_crafting_2"
+    },
+    {
+      "name": "AstralIngotCrafting3",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "astral_ingot_crafting_3"
+    },
+    {
+      "name": "SeaPrism",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sea_prism"
+    },
+    {
+      "name": "SeaCrystal",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sea_crystal"
+    },
+    {
+      "name": "SeaCrystalBroken",
+      "type": "loottable",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sea_crystal_broken"
+    },
+    {
+      "name": "MeteoriteOreEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "meteorite_ore_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MeteoriteOre",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "meteorite_ore"
+    },
+    {
+      "name": "AuricTeslaIngot",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "auric_tesla_ingot"
+    },
+    {
+      "name": "ShadowspecIngot",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shadowspec_ingot"
+    },
+    {
+      "name": "GalaxyBeet",
+      "type": "food",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "galaxy_beet"
+    },
+    {
+      "name": "ChlorophyllPickaxe",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chlorophyll_pickaxe"
+    },
+    {
+      "name": "ChlorophyllAxe",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chlorophyll_axe"
+    },
+    {
+      "name": "ChlorophyllSword",
+      "type": "tool",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chlorophyll_sword"
+    },
+    {
+      "name": "ChlorophyllShovel",
+      "type": "tool",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chlorophyll_shovel"
+    },
+    {
+      "name": "ChlorophyllHoe",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chlorophyll_hoe"
+    },
+    {
+      "name": "ChlorophyllPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chlorophyll_pickaxe_recipe"
+    },
+    {
+      "name": "ChlorophyllAxeRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chlorophyll_axe_recipe"
+    },
+    {
+      "name": "ChlorophyllSwordRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chlorophyll_sword_recipe"
+    },
+    {
+      "name": "ChlorophyllShovelRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chlorophyll_shovel_recipe"
+    },
+    {
+      "name": "ChlorophyllHoeRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chlorophyll_hoe_recipe"
+    },
+    {
+      "name": "BloodflarePickaxe",
+      "type": "tool",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodflare_pickaxe"
+    },
+    {
+      "name": "BloodflareAxe",
+      "type": "tool",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodflare_axe"
+    },
+    {
+      "name": "BloodflareSword",
+      "type": "tool",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodflare_sword"
+    },
+    {
+      "name": "BloodflareShovel",
+      "type": "tool",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodflare_shovel"
+    },
+    {
+      "name": "BloodflareHoe",
+      "type": "tool",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodflare_hoe"
+    },
+    {
+      "name": "BloodflarePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodflare_pickaxe_recipe"
+    },
+    {
+      "name": "BloodflareAxeRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodflare_axe_recipe"
+    },
+    {
+      "name": "BloodflareSwordRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodflare_sword_recipe"
+    },
+    {
+      "name": "BloodflareShovelRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodflare_shovel_recipe"
+    },
+    {
+      "name": "BloodflareHoeRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodflare_hoe_recipe"
+    },
+    {
+      "name": "AstralPickaxe",
+      "type": "tool",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "astral_pickaxe"
+    },
+    {
+      "name": "AstralAxe",
+      "type": "tool",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "astral_axe"
+    },
+    {
+      "name": "AstralSword",
+      "type": "tool",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "astral_sword"
+    },
+    {
+      "name": "AstralShovel",
+      "type": "tool",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "astral_shovel"
+    },
+    {
+      "name": "AstralHoe",
+      "type": "tool",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "astral_hoe"
+    },
+    {
+      "name": "AstralPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "astral_pickaxe_recipe"
+    },
+    {
+      "name": "AstralAxeRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "astral_axe_recipe"
+    },
+    {
+      "name": "AstralSwordRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "astral_sword_recipe"
+    },
+    {
+      "name": "AstralShovelRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "astral_shovel_recipe"
+    },
+    {
+      "name": "AstralHoeRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "astral_hoe_recipe"
+    },
+    {
+      "name": "ChlorophyllArmor",
+      "type": "armor",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chlorophyll_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "ChlorophyllArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chlorophyll_armor_helmet_recipe"
+    },
+    {
+      "name": "ChlorophyllArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chlorophyll_armor_body_recipe"
+    },
+    {
+      "name": "ChlorophyllArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chlorophyll_armor_leggings_recipe"
+    },
+    {
+      "name": "ChlorophyllArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chlorophyll_armor_boots_recipe"
+    },
+    {
+      "name": "BloodflareArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodflare_armor_helmet_recipe"
+    },
+    {
+      "name": "BloodflareArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodflare_armor_body_recipe"
+    },
+    {
+      "name": "BloodflareArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodflare_armor_leggings_recipe"
+    },
+    {
+      "name": "BloodflareArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodflare_armor_boots_recipe"
+    },
+    {
+      "name": "Apotheosis",
+      "type": "tool",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "apotheosis"
+    },
+    {
+      "name": "ApotheosisRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "apotheosis_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GleamingGem",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gleaming_gem"
+    },
+    {
+      "name": "GIGASWORDCRAFT",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gigaswordcraft"
+    },
+    {
+      "name": "MoreOre",
+      "type": "tab",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "more_ore"
+    },
+    {
+      "name": "Hehehhe",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hehehhe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GobletOfTheHeavens",
+      "type": "food",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goblet_of_the_heavens"
+    },
+    {
+      "name": "LeightonsGreatHammer",
+      "type": "tool",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leightons_great_hammer"
+    },
+    {
+      "name": "GIGASWORD",
+      "type": "tool",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gigasword"
+    },
+    {
+      "name": "CalamitousEssence",
+      "type": "item",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "calamitous_essence"
+    },
+    {
+      "name": "ShadowspecBarRecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shadowspec_bar_recipe"
+    },
+    {
+      "name": "YharonSoulFragment",
+      "type": "item",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yharon_soul_fragment"
+    },
+    {
+      "name": "AscendantSpiritEssence",
+      "type": "item",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ascendant_spirit_essence"
+    },
+    {
+      "name": "DarksunFragment",
+      "type": "item",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darksun_fragment"
+    },
+    {
+      "name": "GalacticaSingularity",
+      "type": "item",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "galactica_singularity"
+    },
+    {
+      "name": "UnholyEssence",
+      "type": "item",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unholy_essence"
+    },
+    {
+      "name": "LifeAlloy",
+      "type": "item",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "life_alloy"
+    },
+    {
+      "name": "AuricOre",
+      "type": "item",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "auric_ore"
+    },
+    {
+      "name": "CoreOfCalamity",
+      "type": "item",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "core_of_calamity"
+    },
+    {
+      "name": "AuricTeslaRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "auric_tesla_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.more_ore.gleaming_gem": "Gleaming Gem",
+      "item.more_ore.chlorophyll_chunk": "Chlorophyll Chunk",
+      "item.more_ore.astral_pickaxe": "Astral Pickaxe",
+      "item.more_ore.chlorophyll_ingot": "Chlorophyll Ingot",
+      "item.more_ore.bloodflare_pickaxe": "Bloodflare Pickaxe",
+      "item.more_ore.auric_tesla_ingot": "Auric Tesla Ingot",
+      "item.more_ore.yharon_soul_fragment": "Yharon Soul Fragment",
+      "item.more_ore.bloodflare_armour_boots": "Bloodflare Boots",
+      "item.more_ore.chlorophyll_pickaxe": "Chlorophyll Pickaxe",
+      "item.more_ore.sea_prism": "Sea Prism",
+      "item.more_ore.astral_ingot": "Astral Ingot",
+      "item.more_ore.apotheosis": "Apotheosis",
+      "itemGroup.tabmore_ore": "More Ore",
+      "item.more_ore.bloodflare_nugget": "Bloodflare Nugget",
+      "item.more_ore.chlorophyll_nugget": "Chlorophyll Nugget",
+      "item.more_ore.chlorophyll_axe": "Chlorophyll Axe",
+      "item.more_ore.auric_ore": "Auric Ore",
+      "item.more_ore.astral_shovel": "Astral Shovel",
+      "item.more_ore.chlorophyll_sword": "Chlorophyll Sword",
+      "item.more_ore.galactica_singularity": "Galactica Singularity",
+      "item.more_ore.bloodflare_axe": "Bloodflare Axe",
+      "item.more_ore.bloodflare_sword": "Bloodflare Sword",
+      "item.more_ore.core_of_calamity": "Core Of Calamity",
+      "block.more_ore.solidified_chlorophyll": "Solidified Chlorophyll",
+      "item.more_ore.astral_sword": "Astral Sword",
+      "item.more_ore.chlorophyll_armor_boots": "Chlorophyll Boots",
+      "item.more_ore.astral_hoe": "Astral Hoe",
+      "item.more_ore.ascendant_spirit_essence": "Ascendant Spirit Essence",
+      "item.more_ore.galaxy_beet": "Galaxy Beet",
+      "block.more_ore.sea_crystal": "Sea Crystal",
+      "item.more_ore.goblet_of_the_heavens": "Goblet Of The Heavens",
+      "item.more_ore.chlorophyll_armor_helmet": "Chlorophyll Helmet",
+      "item.more_ore.gigasword": "Giga Sword",
+      "item.more_ore.life_alloy": "Life Alloy",
+      "item.more_ore.bloodflare_armour_chestplate": "Bloodflare Chestplate",
+      "item.more_ore.bloodflare_armour_helmet": "Bloodflare Helm",
+      "item.more_ore.chlorophyll_armor_leggings": "Chlorophyll Leggings",
+      "item.more_ore.shadowspec_ingot": "Shadowspec Ingot",
+      "item.more_ore.bloodflare_armour_leggings": "Bloodflare Leggings",
+      "item.more_ore.leightons_great_hammer": "Leightons Greathammer",
+      "item.more_ore.darksun_fragment": "Darksun Fragment",
+      "item.more_ore.bloodflare_hoe": "Bloodflare Hoe",
+      "block.more_ore.bloodflare_ore": "Bloodflare Ore",
+      "item.more_ore.unholy_essence": "Unholy Essence",
+      "block.more_ore.meteorite_ore": "Meteorite Ore",
+      "item.more_ore.chlorophyll_shovel": "Chlorophyll Shovel",
+      "item.more_ore.chlorophyll_armor_chestplate": "Chlorophyll Chestplate",
+      "item.more_ore.astral_axe": "Astral Axe",
+      "item.more_ore.chlorophyll_hoe": "Chlorophyll Hoe",
+      "item.more_ore.calamitous_essence": "Calamitous Essence",
+      "item.more_ore.bloodflare_ingot": "Bloodflare Ingot",
+      "item.more_ore.bloodflare_shovel": "Bloodflare Shovel"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "more_ore",
+    "modName": "More Ore",
+    "version": "1.0.0",
+    "author": "samuelrietveld, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.moreore",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}

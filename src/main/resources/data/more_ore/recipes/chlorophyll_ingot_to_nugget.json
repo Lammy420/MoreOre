@@ -1,0 +1,13 @@
+{
+  "group": "more_ore",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "more_ore:chlorophyll_ingot"
+    }
+  ],
+  "result": {
+    "item": "more_ore:chlorophyll_nugget",
+    "count": 9
+  }
+}

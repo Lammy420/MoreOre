@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "chlorophyll_axe",
+    "customModelName": "Normal",
+    "name": "Chlorophyll Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MoreOre"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 4,
+    "efficiency": 10.0,
+    "attackSpeed": 1.0,
+    "enchantability": 22,
+    "damageVsEntity": 12.0,
+    "usageCount": 2056,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ChlorophyllIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

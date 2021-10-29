@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "galaxy_beet",
+    "customModelName": "Normal",
+    "name": "Galaxy Beet",
+    "rarity": "EPIC",
+    "specialInfo": [
+      "A holy food shot into the earth from the solar system",
+      "nobody knows it's origins, It is powered by GigaThronch magic",
+      "Legendary Drop",
+      "Developer Item"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:MoreOre"
+    },
+    "stackSize": 1,
+    "nutritionalValue": 4,
+    "saturation": 4.0,
+    "eatingSpeed": 2,
+    "resultItem": {
+      "value": "CUSTOM:GalaxyBeet"
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": true
+  }
+}

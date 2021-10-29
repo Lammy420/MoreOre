@@ -1,0 +1,36 @@
+{
+  "group": "more_ore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "more_ore:chlorophyll_ingot"
+    },
+    "1": {
+      "item": "more_ore:chlorophyll_ingot"
+    },
+    "2": {
+      "item": "more_ore:chlorophyll_ingot"
+    },
+    "3": {
+      "item": "more_ore:chlorophyll_ingot"
+    },
+    "5": {
+      "item": "more_ore:chlorophyll_ingot"
+    },
+    "6": {
+      "item": "more_ore:chlorophyll_ingot"
+    },
+    "8": {
+      "item": "more_ore:chlorophyll_ingot"
+    }
+  },
+  "result": {
+    "item": "more_ore:chlorophyll_armor_leggings",
+    "count": 1
+  }
+}

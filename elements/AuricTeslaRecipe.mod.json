@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:DarksunFragment"
+      },
+      {
+        "value": "CUSTOM:GalacticaSingularity"
+      },
+      {
+        "value": "CUSTOM:AscendantSpiritEssence"
+      },
+      {
+        "value": "CUSTOM:YharonSoulFragment"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CoreOfCalamity"
+      },
+      {
+        "value": "CUSTOM:AuricOre"
+      },
+      {
+        "value": "CUSTOM:LifeAlloy"
+      },
+      {
+        "value": "CUSTOM:UnholyEssence"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AuricTeslaIngot"
+    },
+    "name": "auric_tesla_recipe",
+    "namespace": "mod"
+  }
+}

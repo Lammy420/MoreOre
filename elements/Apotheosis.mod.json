@@ -1,0 +1,35 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "apotheosis_fixed",
+    "customModelName": "Normal",
+    "name": "Apotheosis",
+    "specialInfo": [
+      "§2§oA sword fallen from the heavens,",
+      "§2§oforged in the divine power of Hope",
+      "Legendary Drop",
+      "Developer Item"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:MoreOre"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 10,
+    "efficiency": 5.0,
+    "attackSpeed": 4.8,
+    "enchantability": 500,
+    "damageVsEntity": 98.0,
+    "usageCount": 25000,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedOnBlock": {
+      "name": "ApotheosisRightClickedOnBlock"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "more_ore:blocks/bloodflareoretopwip",
+    "up": "more_ore:blocks/bloodflareoretopwip",
+    "north": "more_ore:blocks/bloodflareorefrontfixed",
+    "east": "more_ore:blocks/bloodflareorefrontfixed",
+    "south": "more_ore:blocks/bloodflareorefrontfixed",
+    "west": "more_ore:blocks/bloodflareorefrontfixed",
+    "particle": "more_ore:blocks/bloodflareoretopwip"
+  }
+}

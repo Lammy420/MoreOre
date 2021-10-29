@@ -1,0 +1,13 @@
+{
+  "group": "more_ore",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "more_ore:bloodflare_ingot"
+    }
+  ],
+  "result": {
+    "item": "more_ore:bloodflare_nugget",
+    "count": 9
+  }
+}

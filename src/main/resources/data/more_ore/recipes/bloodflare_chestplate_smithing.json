@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_chestplate"
+  },
+  "addition": {
+    "item": "more_ore:bloodflare_ingot"
+  },
+  "result": {
+    "item": "more_ore:bloodflare_armour_chestplate"
+  }
+}

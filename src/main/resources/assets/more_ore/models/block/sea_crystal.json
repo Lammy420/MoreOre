@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "more_ore:blocks/sea_crystal",
+    "particle": "more_ore:blocks/sea_crystal"
+  }
+}
